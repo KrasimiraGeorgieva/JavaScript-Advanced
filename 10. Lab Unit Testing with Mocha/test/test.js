@@ -12,9 +12,3 @@ describe('Group', function(){
         expect(sum([1, 2])).to.be.equal(3)
     })
 });
-
-// cd "10. Lab Unit Testing with Mocha" команда за старт през терминала
-
-
-// http://prntscr.com/ikfufa
-// http://prntscr.com/ikfvqs
