@@ -36,11 +36,23 @@ describe('Symmetry test', function () {
         it('Should return false for [udf, udf]', function () {
             expect(isSymmetric([NaN, NaN])).to.be.equal(true);
         });
+        /*it('Should return false[]', function(){
+            expect(SYMMETRY([true,'1'])).to.be.equal(false);
+        });
+        it('Should return false [-1, \'null\', 2]', function(){
+            expect(SYMMETRY([-1, 'null', 2])).to.be.equal(false);
+        });
+        it('Should return true for []', function(){
+            expect(SYMMETRY([])).to.be.equal(true);
+        });*/
         it('Should return false for 1,2,2,1-not array', function(){
             expect(isSymmetric(1,2,2,1)).to.be.equal(false);
         });
         it('Should return false for 1,2,1-not array', function(){
             expect(isSymmetric(1,2,1)).to.be.equal(false);
         });
+        /*it('Should return NaN object', function(){
+            expect(sum({})).to.throw(TypeError)
+        });*/
     });
 });

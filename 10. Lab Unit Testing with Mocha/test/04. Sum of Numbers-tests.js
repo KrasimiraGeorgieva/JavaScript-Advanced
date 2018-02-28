@@ -20,4 +20,7 @@ describe('Sum', function(){
     it('Should return NaN string', function(){
         expect(sum('test')).to.be.NaN
     });
+    /*it('Should return NaN object', function(){
+        expect(sum({})).to.throw(TypeError)
+    });*/
 });
